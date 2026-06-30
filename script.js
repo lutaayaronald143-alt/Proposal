@@ -19,7 +19,7 @@ yesBtn.addEventListener("click", function(){
     emoji.textContent = "😍";
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
-    message.textContent = "SHE SAID YES!!!!";
+    message.textContent = "SHE SAID YES !!!!";
     container.style.display = "none";
     document.body.style.background = "lightpink";
 
