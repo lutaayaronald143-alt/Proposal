@@ -7,8 +7,11 @@ let ribbon = document.createElement("div")
 
 
 noBtn.addEventListener("mousemove", function() {
-    let randomX = Math.random() * (500 - 80);
-    let randomY = Math.random() * (300 - 40);
+    let containerWidth = container.offsetWidth;
+    let containerHeight = container.offsetHeight;
+
+    let randomX = Math.random() * (containerWidth - 80);
+    let randomY = Math.random() * (containerHeight - 40);
 
     noBtn.style.position = "absolute";
     noBtn.style.left = randomX + "px" 
